@@ -1,0 +1,68 @@
+
+.google {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px; 
+} /* Google Icon centered. */
+
+.gray {
+    background-color: rgb(236, 236, 236);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+    padding-top: 3px;
+} /* Search Section centered. */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+} /* list for links */
+
+.bottomleft {
+    background-image: url(./Google-Beta-Images/solalt.png);
+    flex:37%;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+} /* styling Speacial Searches */
+
+.bottom {
+    background-image: url(./Google-Beta-Images/solorta.png);
+    font-size: 13px;
+    text-align: center;
+    flex: 20%;
+    padding: 8px 0px 8px 0px;
+} /* Styling */
+
+.bottomright {
+    background-image: url(./Google-Beta-Images/solsağ.png) ;
+    font-size: 13px;
+    text-align: center;
+    flex: 43%;
+    padding: 0.5px 0px 0px 0px;
+}
+
+.copyright {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex > div{
+    margin: 1px;
+}
